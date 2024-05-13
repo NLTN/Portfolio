@@ -3,6 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import About from './components/About';
+import Resume from './components/Resume';
+import Projects from './components/Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
       <div className='App-main'>
         <Hero />
         <About />
+        <Resume />
+        <Projects />
       </div>
     </div>
   );
