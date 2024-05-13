@@ -1,0 +1,10 @@
+.mob-img {
+    width: auto;
+    height: auto;
+  }   
+@media screen and (max-width: 578px) {
+    .mob-img {
+        width: 300px;
+        height: auto;
+    }       
+}
