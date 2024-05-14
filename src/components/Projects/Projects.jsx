@@ -7,15 +7,17 @@ import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import imgQuicksort from '../../assets/images/projects/quicksort1.gif';
 import imgACMCSUF from '../../assets/images/projects/acmcsuf.png';
+import { Container } from "react-bootstrap";
 
 function template() {
   return (
     <>
       <h1 data-aos="fade-up" id="projects" className="projects pb-4">Projects</h1>
 
+      <Container className="d-flex justify-content-center">
       <Row data-aos="fade-up" xs={1} md={2} className="g-4">
-        <Col>
-          <Card className="p-2" style={{ width: '24rem', minHeight: '470px' }}>
+        <Col className="d-flex justify-content-center">
+          <Card className="p-2 projectcard">
             <Card.Img data-aos="zoom-in" data-aos-duration="800" variant="top" src={imgQuicksort} />
             <Card.Body className="align-content-end">
               <Card.Title>LearnCS.io</Card.Title>
@@ -27,8 +29,8 @@ function template() {
           </Card>
         </Col>
 
-        <Col>
-          <Card className="p-2" style={{ width: '24rem', minHeight: '470px' }}>
+        <Col className="d-flex justify-content-center">
+          <Card className="p-2 projectcard">
             <Card.Img data-aos="zoom-in" data-aos-duration="800" variant="top" src={imgACMCSUF} />
             <Card.Body className="align-content-end">
               <Card.Title>ACM at CSUF</Card.Title>
@@ -41,6 +43,7 @@ function template() {
           </Card>
         </Col>
       </Row>
+      </Container>
     </>
   );
 };

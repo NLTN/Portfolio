@@ -1,0 +1,28 @@
+
+.projectcard {
+    min-width: 22rem;
+    max-width: 25rem;
+    min-height: 470px;
+}
+
+/* Styles for phones (max-width: 767px) */
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Styles for tablets (min-width: 768px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        width: 90%;
+    }
+}
+
+/* Styles for larger screens (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .container {
+        width: 80%;
+    }
+}

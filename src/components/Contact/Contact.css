@@ -1,0 +1,11 @@
+.contact-card * {
+    color: white;
+}
+
+.contact-card a {
+    color: white;
+}
+
+.contact-card i {
+    font-size: 2em;
+}
