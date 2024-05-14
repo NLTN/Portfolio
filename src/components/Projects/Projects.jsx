@@ -12,8 +12,7 @@ import { Container } from "react-bootstrap";
 function template() {
   return (
     <>
-      <h1 data-aos="fade-up" id="projects" className="projects mt-5 pb-4">Projects</h1>
-
+      <h1 data-aos="fade-up" id="projects" className="projects pb-4">Projects</h1>
       <Container className="d-flex justify-content-center">
       <Row data-aos="fade-up" xs={1} md={2} className="g-4">
         <Col className="d-flex justify-content-center">
