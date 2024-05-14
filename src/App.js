@@ -7,7 +7,14 @@ import Resume from './components/Resume';
 import Projects from './components/Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import {useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 function App() {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div className="App">
       <header className="App-header">
