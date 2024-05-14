@@ -8,6 +8,10 @@ import { Container } from "react-bootstrap";
 import Form from 'react-bootstrap/Form';
 
 function template() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Form submitted.");
+  };
   return (
     <Container data-aos="fade-up" className="mt-5 mb-4">
       <h1 id="contact" className="pb-4 ">Contact</h1>
@@ -36,7 +40,7 @@ function template() {
         <Col xs={12} md={8}>
           <Card className="bg-transparent" border="white">
             <Card.Body>
-              <Form>
+              <Form onSubmit={handleSubmit}>
                 <Row className="mb-3">
                   <Col>
                     <Form.Group controlId="textbox1">
