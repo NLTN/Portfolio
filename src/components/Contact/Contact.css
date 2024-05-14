@@ -1,11 +1,16 @@
 .contact-card * {
     color: white;
+    text-align: left;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .contact-card a {
     color: white;
+    padding-left: 2rem;
 }
 
 .contact-card i {
-    font-size: 2em;
+    font-size: 3em;
 }
