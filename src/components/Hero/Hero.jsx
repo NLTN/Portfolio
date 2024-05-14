@@ -6,8 +6,8 @@ import Image from 'react-bootstrap/Image'
 
 function template() {
   return (
-    <Container>
-      <Row className="align-items-center" id="home">
+      <div id="home" className="hero">
+      <Row  xs={1} md={2} className="align-items-center" >
         <Col>
           <Image roundedCircle className="mob-img" src="https://avatars.githubusercontent.com/u/9380605?s=400&u=f18130f9a63a1c21eba83f8608479033d7a55c21&v=4" />
         </Col>
@@ -18,7 +18,7 @@ function template() {
           </p>
         </Col>
       </Row>
-    </Container>
+      </div>
 
   );
 };

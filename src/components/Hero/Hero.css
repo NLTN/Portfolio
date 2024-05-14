@@ -1,23 +1,24 @@
+.hero {
+    padding-top: 200px;
+}
+
 .subtitle {
     font-size: calc(10px + 2vmin);
 }
 .mob-img {
-    margin-top: 80px;
     width: auto;
-    height: auto;
   }
   
 @media screen and (max-width: 578px) {
     .mob-img {
         width: 300px;
-        height: auto;
+        margin-bottom: 50px;
     }       
 }
 
 @media screen and (max-width: 768px) {
     .mob-img {
-        /* margin-top: 10px; */
-        width: 300px;
-        height: auto;
+        width: 400px;
+        margin-bottom: 50px;
     }       
 }
