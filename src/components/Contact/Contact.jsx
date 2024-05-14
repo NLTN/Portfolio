@@ -18,7 +18,7 @@ function template() {
       <h4>I want to hear from you!</h4>
 
       <Row xs={1} md={2} className="g-4">
-        <Col xs={12} md={4}>
+        <Col xs={12} md={5}>
           <Card className="contact-card bg-transparent" border="white">
             <Card.Body>
               <Card.Text>
@@ -37,7 +37,7 @@ function template() {
           </Card>
 
         </Col>
-        <Col xs={12} md={8}>
+        <Col xs={12} md={7}>
           <Card className="bg-transparent" border="white">
             <Card.Body>
               <Form onSubmit={handleSubmit}>

@@ -2,7 +2,6 @@ import "./Projects.css";
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import imgQuicksort from '../../assets/images/projects/quicksort1.gif';
@@ -13,8 +12,8 @@ function template() {
   return (
     <>
       <h1 data-aos="fade-up" id="projects" className="projects pb-4">Projects</h1>
-      <Container className="d-flex justify-content-center">
-      <Row data-aos="fade-up" xs={1} md={2} className="g-4">
+      <Container data-aos="fade-up" className="d-flex justify-content-center">
+      <Row xs={1} md={2} className="g-4">
         <Col className="d-flex justify-content-center">
           <Card className="p-2 projectcard">
             <Card.Img data-aos="zoom-in" data-aos-duration="800" variant="top" src={imgQuicksort} />
