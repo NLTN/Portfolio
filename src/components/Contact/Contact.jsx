@@ -16,7 +16,7 @@ function template() {
         <Col>
           <Card className="bg-transparent" border="white">
             <Card.Body>
-              <Card.Title><i class="fa fa-linkedin" style={{ color: "white", fontSize: "2em" }}></i></Card.Title>
+              <Card.Title><i className="fa fa-linkedin" style={{ color: "white", fontSize: "2em" }}></i></Card.Title>
               <Card.Text>
                 <Button variant="link" className="text-white" href="https://linkedin.com/in/nltn/">linkedin.com/NLTN</Button>
               </Card.Text>
@@ -27,7 +27,7 @@ function template() {
         <Col>
           <Card className="bg-transparent contact-card" border="white">
             <Card.Body>
-              <Card.Title><i class="fa fa-github"></i></Card.Title>
+              <Card.Title><i className="fa fa-github"></i></Card.Title>
               <Card.Text>
                 <Button variant="link" href="https://github.com/NLTN">github.com/NLTN</Button>
               </Card.Text>
@@ -37,7 +37,7 @@ function template() {
         <Col>
           <Card className="bg-transparent contact-card" border="white">
             <Card.Body>
-              <Card.Title><i class="fa fa-envelope"></i></Card.Title>
+              <Card.Title><i className="fa fa-envelope"></i></Card.Title>
               <Card.Text>
                 nathan@me.com
               </Card.Text>

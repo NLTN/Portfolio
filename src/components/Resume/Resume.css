@@ -1,0 +1,44 @@
+.resume-card * {
+    color: white;
+}
+
+.resume-subtitle {
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+}
+
+.resume-subtitle i {
+    font-size: 2em;
+    padding-right: 1rem;
+}
+
+.resume-term {
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+    color: lightblue;
+    margin-left: 4rem;
+}
+
+.resume-jobtitle {
+    text-align: left;
+    font-size: large;
+    margin-left: 4rem;
+}
+
+.resume-card li {
+    font-size: large;
+    text-align: left;
+    color: lightgray;
+    margin-left: 0rem;
+    padding-bottom: 5pt;
+}
+
+.resume-detail {
+    font-size: large;
+    text-align: left;
+    color: lightgray;
+    margin-left: 3rem;
+    padding-bottom: 5pt;
+}

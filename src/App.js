@@ -25,8 +25,8 @@ function App() {
       <div className='App-main'>
         <Hero />
         <About />
-        <Resume />
         <Projects />
+        <Resume />
         <Contact />
         <Footer />
       </div>
