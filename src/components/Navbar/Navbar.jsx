@@ -7,10 +7,10 @@ import React from "react";
 
 function template() {
   return (
-    <Navbar fixed="top" expand="lg" className="navbar-custom">
+    <Navbar fixed="top" expand="lg" className="navbar-dark	 bg-dark">
       <Container>
-        <Navbar.Brand href="#home">NN</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        {/* <Navbar.Brand href="#home">NN</Navbar.Brand> */}
+        <Navbar.Toggle aria-controls="basic-navbar-nav " />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#home">Home</Nav.Link>
