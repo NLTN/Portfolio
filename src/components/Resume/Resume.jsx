@@ -7,9 +7,8 @@ import { Container } from "react-bootstrap";
 
 function template() {
   return (
-    <Container>
-      <h1 id="resume" data-aos="fade-up" className="resume pb-3">Resume</h1>
-
+    <Container id="resume">
+      <h1 data-aos="fade-up" className="resume pb-3">Resume</h1>
       <Row xs={1} md={2} className="g-4">
         <Col>
           <Card data-aos="fade-up" className="resume-card bg-transparent border-0">
