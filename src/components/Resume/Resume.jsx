@@ -12,7 +12,7 @@ function template() {
 
       <Row xs={1} md={2} className="g-4">
         <Col>
-          <Card data-aos="fade-up" className="resume-card bg-transparent">
+          <Card data-aos="fade-up" className="resume-card bg-transparent border-0">
             <Card.Body>
               <Card.Title><h2>Education</h2></Card.Title>
               <div className="resume-subtitle">
@@ -39,7 +39,7 @@ function template() {
             </Card.Body>
           </Card>
 
-          <Card data-aos="fade-up" className="resume-card bg-transparent mt-5">
+          <Card data-aos="fade-up" className="resume-card bg-transparent mt-5 border-0">
             <Card.Body>
               <Card.Title><h2>Skills</h2></Card.Title>
               <div className="resume-subtitle">
@@ -87,7 +87,7 @@ function template() {
         </Col>
 
         <Col>
-          <Card data-aos="fade-up" className="resume-card bg-transparent">
+          <Card data-aos="fade-up" className="resume-card bg-transparent border-0">
             <Card.Body>
               <Card.Title><h2>Experience</h2></Card.Title>
 
@@ -110,7 +110,7 @@ function template() {
               </ul>
             </Card.Body>
           </Card>
-          <Card data-aos="fade-up" className="resume-card bg-transparent">
+          <Card data-aos="fade-up" className="resume-card bg-transparent border-0">
             <Card.Body>
               <div className="resume-subtitle">
                 <i className="fa fa-briefcase"></i>LearnCS.io
@@ -129,7 +129,7 @@ function template() {
             </Card.Body>
           </Card>
 
-          <Card data-aos="fade-up" className="resume-card bg-transparent">
+          <Card data-aos="fade-up" className="resume-card bg-transparent border-0">
             <Card.Body>
               <div className="resume-subtitle">
                 <i className="fa fa-briefcase"></i>ACM at CSU Fullerton/ acmcsuf.com
